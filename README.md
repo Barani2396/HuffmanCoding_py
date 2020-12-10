@@ -49,18 +49,9 @@ Calling the `decompressor()` method would get back the content of `sample.txt` f
 
 Size comparisson before and after the huffman code applied.
 
-### Sample File
-<img src="/imgs/samp.jpg" height="325" width="325">
-
-### Compressed File
-<img src="/imgs/comp.jpg" height="300" width="300">
-
-### Decompressed File
-<img src="/imgs/decomp.jpg" height="300" width="300">
-
-| Sample File  | Compressed File | Decompressed File |
+| ### Sample File  | ### Compressed File | ### Decompressed File |
 | ------------- | ------------- | ------------- |
-| <img src="/imgs/samp.jpg" height="325" width="325"> | <img src="/imgs/comp.jpg" height="300" width="300"> | <img src="/imgs/decomp.jpg" height="350" width="350"> |
+| <img src="/imgs/samp.jpg" height="300" width="300"> | <img src="/imgs/comp.jpg" height="300" width="300"> | <img src="/imgs/decomp.jpg" height="300" width="300"> |
 
 
 
