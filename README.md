@@ -60,7 +60,7 @@ Size comparisson before and after the huffman code applied.
 
 | Sample File  | Compressed File | Decompressed File |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | <img src="/imgs/decomp.jpg" height="350" width="350"> |
+| <img src="/imgs/samp.jpg" height="325" width="325"> | <img src="/imgs/comp.jpg" height="300" width="300"> | <img src="/imgs/decomp.jpg" height="350" width="350"> |
 
 
 
