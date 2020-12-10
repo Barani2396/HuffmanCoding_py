@@ -17,16 +17,27 @@ Huffman coding comprises of 2 algorithm techniques to successfully encode and de
 -	Encode the input text.
 -	If overall length of bit stream is not multiple of 8, add some padding to the text.
 -	Store the padding information (in 8 bits) at the start of the overall encoded bit stream.
-#^	Write the result to an output binary file.
+-	Write the result to an output binary file.
 
 ### Decompression Algorithm
 
-•	Read binary file.
-•	Read padding information. Removed the padded bits.
-•	Decode the bits, read the bits and replace the valid Huffman code bits with the character values.
-•	Save the decoded data into output file.
+-	Read binary file.
+-	Read padding information. Removed the padded bits.
+-	Decode the bits, read the bits and replace the valid Huffman code bits with the character values.
+-	Save the decoded data into output file.
 
 ## Testing
+
+-	Save the above code in a folder with `.py` extension, ex: `hc.py`
+-	Run terminal and navigate to the `hc.py` folder
+-	Start python3 shell by entering `python3`
+-	Then import the class “HuffmanCoding” from the `hc.py` file by inputting `from hc import HuffmanCoding`
+-	Create a `sample.txt` file, with some texts, in the same folder
+-	Initialize the `path` variable to the `sample.txt` file location, ex: `path=/Users/*****/sample.txt`
+-	Insatiate an object to use the “compress” method, `H = HuffmanCoding(path)`
+-	Call the `compressor()` method to create a compressed binary file, ex: `H.compressor()`
+
+
 
 
 
