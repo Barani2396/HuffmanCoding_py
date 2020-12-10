@@ -10,14 +10,14 @@ Huffman coding comprises of 2 algorithm techniques to successfully encode and de
 
 ### Compression Algorithm
 
-•	Build frequency dictionary.
-•	Build priority queue.
-•	Build Huffman tree by selecting 2 min nodes and merging them.
-•	Assign codes to characters.
-•	Encode the input text.
-•	If overall length of bit stream is not multiple of 8, add some padding to the text.
-•	Store the padding information (in 8 bits) at the start of the overall encoded bit stream.
-•	Write the result to an output binary file.
+-	Build frequency dictionary.
+-	Build priority queue.
+-	Build Huffman tree by selecting 2 min nodes and merging them.
+-	Assign codes to characters.
+-	Encode the input text.
+-	If overall length of bit stream is not multiple of 8, add some padding to the text.
+-	Store the padding information (in 8 bits) at the start of the overall encoded bit stream.
+#^	Write the result to an output binary file.
 
 ### Decompression Algorithm
 
