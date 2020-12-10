@@ -50,7 +50,7 @@ Calling the `decompressor()` method would get back the content of `sample.txt` f
 Size comparisson before and after the huffman code applied.
 
 ![](/imgs/comp.jpg =100x20)
-![Decompressed File](./imgs/decomp.jpg)
+![Decompressed File](./imgs/decomp.jpg =250x)
 
 
 
