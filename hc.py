@@ -1,6 +1,8 @@
 import os
 import heapq
 
+# Baranidharan Pasupathi
+
 class HuffmanCoding:
 	def __init__(self, path):
 		self.path = path
