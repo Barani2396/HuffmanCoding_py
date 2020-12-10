@@ -26,7 +26,9 @@ Huffman coding comprises of 2 algorithm techniques to successfully encode and de
 -	Decode the bits, read the bits and replace the valid Huffman code bits with the character values.
 -	Save the decoded data into output file.
 
-## Testing
+## To Run
+
+### Compression
 
 -	Save the above code in a folder with `.py` extension, ex: `hc.py`
 -	Run terminal and navigate to the `hc.py` folder
@@ -34,8 +36,14 @@ Huffman coding comprises of 2 algorithm techniques to successfully encode and de
 -	Then import the class “HuffmanCoding” from the `hc.py` file by inputting `from hc import HuffmanCoding`
 -	Create a `sample.txt` file, with some texts, in the same folder
 -	Initialize the `path` variable to the `sample.txt` file location, ex: `path=/Users/*****/sample.txt`
--	Insatiate an object to use the “compress” method, `H = HuffmanCoding(path)`
+-	Instantiate an object to use the `compressor` method, `H = HuffmanCoding(path)`
 -	Call the `compressor()` method to create a compressed binary file, ex: `H.compressor()`
+
+### Decompression
+
+Calling the `decompressor()` method would get back the content of `sample.txt` file, ex: `H.decopress('/Users/**** /sample.bin')`
+
+
 
 
 
