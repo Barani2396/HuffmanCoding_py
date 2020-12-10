@@ -47,7 +47,7 @@ Calling the `decompressor()` method would get back the content of `sample.txt` f
 
 ## Results
 
-Size comparisson before and after the huffman code applied.
+Size comparisson before and after the huffman code is applied.
 
 | Sample File | Compressed File | Decompressed File |
 | ------------- | ------------- | ------------- |
