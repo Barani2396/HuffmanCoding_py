@@ -50,13 +50,13 @@ Calling the `decompressor()` method would get back the content of `sample.txt` f
 Size comparisson before and after the huffman code applied.
 
 ### Sample File
-<img src="/imgs/samp.jpg" height="400" width="200">
+<img src="/imgs/samp.jpg" height="350" width="350">
 
 ### Compressed File
 <img src="/imgs/comp.jpg" height="200" width="200">
 
 ### Decompressed File
-<img src="/imgs/decomp.jpg" height="100" width="100">
+<img src="/imgs/decomp.jpg" height="300" width="300">
 
 
 
